@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ["~"]
+
+- link:
+    ~/.config/kitty: kitty
+    ~/.config/hypr: hypr
+    ~/.config/waybar: waybar
+    ~/.config/mpd: mpd
+    ~/.config/nvim: nvim
+    ~/.config/ncmpcpp: ncmpcpp
+    ~/.config/paru: paru
+    ~/.config/i3: i3
+    ~/.xinitrc: .xinitrc
+    ~/.Xresources: .Xresources
+
