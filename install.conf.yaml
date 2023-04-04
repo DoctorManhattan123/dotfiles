@@ -5,7 +5,7 @@
 - clean: ["~"]
 
 - link:
-    ~/.config/kitty: kitty
+    ~/.config/wezterm: wezterm
     ~/.config/hypr: hypr
     ~/.config/waybar: waybar
     ~/.config/mpd: mpd
