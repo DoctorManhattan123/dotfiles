@@ -27,11 +27,12 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.numberwidth = 4
 vim.opt.signcolumn = 'yes'
-vim.opt.wrap = false
+vim.opt.wrap = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.iskeyword:append('-')
 vim.opt.termguicolors = true
+vim.wo.linebreak = true
 vim.opt.spell = false
 vim.opt.spelllang = { 'en_us' }
 vim.opt.guifont = { 'JetBrainsMonoNL Nerd Font', ':h11' }
