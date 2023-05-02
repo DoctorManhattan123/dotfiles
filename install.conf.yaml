@@ -12,7 +12,7 @@
     ~/.config/nvim: nvim
     ~/.config/ncmpcpp: ncmpcpp
     ~/.config/paru: paru
-    ~/.config/i3: i3
+    ~/.config/fish: fish
     ~/.xinitrc: .xinitrc
     ~/.Xresources: .Xresources
 
