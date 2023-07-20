@@ -3,7 +3,7 @@ local term = require("wezterm")
 return {
         default_prog = { "/usr/bin/fish", "-l" },
 
---[[      font = term.font_with_fallback({
+font = term.font_with_fallback({
                 {
                         family = "JetBrainsMonoNL Nerd Font",
                         weight = "Medium",
@@ -11,7 +11,6 @@ return {
                 { family = "Noto Color Emoji SVG" },
                 { family = "Noto Emoji" },
         }),
-]]--
 
         color_scheme = "tokyonight",
 

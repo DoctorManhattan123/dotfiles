@@ -18,6 +18,12 @@ M.setup = function()
       typescript = {
         require('formatter.filetypes.typescript').prettierd,
       },
+      rust = {
+        require('formatter.filetypes.rust').rustfmt,
+      },
+      json = {
+        require('formatter.filetypes.json').prettierd,
+      },
     },
   })
 end

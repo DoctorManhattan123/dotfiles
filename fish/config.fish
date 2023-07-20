@@ -17,6 +17,12 @@ function ggg
     git add -A; and git commit -m "$argv"; and git push
 end
 
+function killport
+    set port $argv[1]
+    kill (lsof -t -i tcp:$port)
+    echo "Killed process on port" $port
+end
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end

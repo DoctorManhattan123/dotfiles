@@ -66,6 +66,29 @@ M.setup = function()
     on_attach = on_attach,
     capabilities = capabilities,
   })
+
+  lsp_config['pyright'].setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    settings = {
+      python = {
+        venvPath = './venv',
+        rootPatterns = { '.git', 'venv' },
+      },
+    },
+  })
+
+  lsp_config['kotlin_language_server'].setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    root_dir = require('lspconfig').util.root_pattern(
+      'build.gradle',
+      'settings.gradle',
+      'build.gradle.kts',
+      'settings.gradle.kts',
+      '.git'
+    ),
+  })
 end
 
 return M

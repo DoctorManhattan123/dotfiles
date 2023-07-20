@@ -76,6 +76,7 @@ local M = {
     keys = { 'gc', 'gb' },
   },
   'b0o/SchemaStore.nvim',
+  'udalov/kotlin-vim',
 }
 
 return M
